@@ -1,6 +1,8 @@
 /node_modules
+/npm-debug.log
 /groovebasin.db
 /config.json
+/docker-compose.override.yml
 
 # not shared with .npmignore
 /public/app.js

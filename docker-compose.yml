@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+    groovebasin:
+        build: .
+        container_name: groovebasin
+        privileged: true
+        volumes:
+            - .:/groovebasin
+        working_dir: /groovebasin
+        ports:
+            - 16242:16242
+            - 6600:6600
+        command: sleep infinity

@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+    groovebasin:
+        volumes:
+            - /home/USER/Music:/home/groovebasin/music
